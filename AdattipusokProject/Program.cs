@@ -18,3 +18,19 @@ byte bájt = 250; // Előjel nélküli 8 bites egész szám(0..255)
 char karakter = 'X'; // Egy Unicode karakter(karakterkészlet, 1-4 bájton tárolja a karaktereket, UTF-8, 16, 32)
 decimal decimál = 6 / 2.3M; decimál = Convert.ToDecimal(6 / 2.3); // 25-29 számjegyig képes pontosan számolni. 
                                                                   // FONTOS: Pénz értéket mindig decimalban tároljunk!
+
+string sztring = "szöveg"; //Unicode karakterek összefűzve
+object obdzsekt = new object(); //Minden más típus őse
+var elso = "variéböl"; //Tetszőleges típusú változó, azonnal értéket kell adni neki
+
+
+const string alma = "alma";
+
+string semmi = "";
+string nihil = null;
+Console.WriteLine(semmi);
+Console.WriteLine(nihil);
+if (semmi != nihil)
+{
+    Console.WriteLine("a null nem egyenértékű a \"\" - jellel!");
+}
