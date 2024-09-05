@@ -9,3 +9,7 @@ x = 10; // definíció
 Console.WriteLine($"Deklaráció után: {x}.");
 int y = 11; //deklaráció és definíció
 Console.WriteLine($"x = {y}");
+
+int integer = 0; // Előjeles, 32 bites egész szám (–2147483648.. 2147483647).
+float flóath = 6 / 2.3F; flóath = (float)5 / 4; // csak 7 számjegyig képes pontosan számolni.
+double dábül = 6 / 2.3; dábül = 6 / 2.3D; // 15-17 számjegyig képes pontosan számolni.
